@@ -1,0 +1,29 @@
+.marg {
+    margin-top: 110px;
+}
+
+.color {
+    color: #2C3E50
+}
+
+.conatinr {
+    width: 50%;
+    margin: auto;
+}
+
+.line {
+    height: 4px;
+    width: 80px;
+    background-color: #2C3E50;
+}
+
+input:focus {
+    border: 0 !important;
+    box-shadow: 0 !important;
+}
+
+.button_color {
+    background-color: #1ABC9C !important;
+    color: white !important;
+
+}

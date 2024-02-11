@@ -1,0 +1,14 @@
+.line {
+    height: 4px;
+    width: 80px;
+    background-color: white;
+}
+
+.bg_color {
+    background-color: #1ABC9C;
+}
+
+.about {
+    height: 98vh;
+    width: 100%;
+}

@@ -1,0 +1,32 @@
+.bg_color {
+    color: #2C3E50
+}
+
+.line {
+    height: 4px;
+    width: 80px;
+    background-color: #2C3E50;
+}
+
+.hov {
+    background-color: #1abc9ce6;
+    opacity: 0;
+    cursor: pointer;
+    transition: .6s opacity;
+}
+
+.hov:hover {
+    opacity: 1;
+}
+
+.marg {
+    margin-top: 100px;
+}
+
+.above {
+    z-index: 99999999;
+}
+
+.imgWidth {
+    width: 40%;
+}
