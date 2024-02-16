@@ -1,12 +1,12 @@
 import './App.css';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createBrowserRouter, createHashRouter } from 'react-router-dom';
 import About from './components/About/About';
 import Layout from './components/Layout/Layout';
 import Portfolio from './components/Portfolio/Portfolio';
 import Contact from './components/Contact/Contact';
 
 
-let routers = createBrowserRouter([
+let routers = createHashRouter([
   {
     path: '', element: <Layout />, children: [
       { index: true, element: <About /> },

@@ -21,3 +21,10 @@ code {
 input {
   padding: 10px;
 }
+
+
+.active {
+  background-color: rgb(18, 163, 18) !important;
+  padding: 5px !important;
+  border-radius: 10px;
+}
