@@ -24,7 +24,113 @@ input {
 
 
 .active {
-  background-color: rgb(18, 163, 18) !important;
+  background-color: rgb(81, 226, 81) !important;
   padding: 5px !important;
   border-radius: 10px;
+}
+
+.vh-90 {
+  height: 90vh !important;
+}
+
+/**/
+
+
+
+:root {
+  --main-color: #2C3E50;
+  --secondary-color: rgb(26, 188, 156);
+  --third-color: #1A252F;
+  --duration: 0.5s;
+}
+
+.vh-60 {
+  height: 60vh !important;
+}
+
+.vh-85 {
+  height: 85vh !important;
+}
+
+.vh-90 {
+  margin-top: 78px !important;
+  min-height: calc(100vh - 112px) !important;
+}
+
+.fs-13 {
+  font-size: 13px;
+}
+
+img {
+  width: 100%;
+}
+
+.mmtt {
+  margin-top: 77px;
+}
+
+.z-t {
+  z-index: -1;
+  transition: var(--duration);
+}
+
+.top-b {
+  top: 40%
+}
+
+.top-t {
+  top: -70%
+}
+
+
+
+
+
+/* 
+==========================
+==========================
+==========================
+portfolio style
+==========================
+==========================
+==========================
+*/
+
+
+
+
+.portfolio,
+.contact,
+.notFound {
+  color: var(--main-color) !important;
+}
+
+.portfolio .line,
+.contact .line,
+.notFound .line {
+  background-color: var(--main-color);
+}
+
+
+.layer {
+  opacity: 0;
+  transition: opacity var(--duration);
+}
+
+.layer i {
+  font-size: 60px;
+}
+
+.image:hover .layer {
+  background-color: rgba(26, 188, 156, 1) !important;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.marg-top {
+  margin-top: 210px;
+}
+
+.marg-bottom {
+  margin-bottom: 100px;
 }
